@@ -1,0 +1,207 @@
+html, body{
+font-family: 'Electrolize', 'Microsoft YaHei', SimSun, STXihei, "华文细黑", "宋体", Heiti, "黑体", sans-serif;
+font-size:0.9em;
+-webkit-user-select: none; /* webkit (safari, chrome) browsers */
+-moz-user-select: none; /* mozilla browsers */
+-khtml-user-select: none; /* webkit (konqueror) browsers */
+-ms-user-select: none; /* IE10+ */
+}
+input, textarea, select, button{
+border: 1px solid #ccc;
+border-radius: 2px;
+transition: 200ms;
+transition-timing-function: ease-in-out;
+-webkit-transition: 200ms;
+-webkit-transition-timing-function: ease-in-out;
+}
+input:focus, input.focus, select:focus, select.focus, button:focus, button.focus, textarea:focus, textarea.focus{
+border-color: #1aaf5d;
+outline: 0;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(26, 175, 93, .6);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(26, 175, 93, .6);
+}
+textarea{
+resize: vertical;
+}
+a, p , span, div, h1, h2, h3, h4, h5, h6{
+}
+.spclear{
+height:0px;
+clear:both;
+margin:0;
+padding:0;
+}
+input::-ms-clear,
+input::-ms-reveal {
+display: none;
+}
+#left_content li, #left_content li span, .left_content_header, #right_content_header *, .custom_a{
+transition: 200ms;
+transition-timing-function: ease-in-out;
+-webkit-transition: 200ms;
+-webkit-transition-timing-function: ease-in-out;
+}
+.btn{
+transition: 200ms;
+transition-timing-function: ease-in-out;
+-webkit-transition: 200ms;
+-webkit-transition-timing-function: ease-in-out;
+}
+.click-span{
+color:#337ab7;
+cursor:pointer;
+}
+.click-span-warning{
+color:#ff3333;
+cursor:pointer;
+}
+.view-login-label{
+font-weight:normal;
+font-size:14px;
+}
+.view-login-input, .view-login-input[readonly], .view-login-input[disabled]{
+font-weight:normal;
+font-size:14px;
+padding-left:37px;
+padding-right:37px;
+}
+.view-red-marker{
+position:relative;
+}
+.view-red-marker::before{
+position:absolute;
+content:"*";
+left:-12px;
+top:0px;
+color:#ff3333;
+}
+.view-inner-icon-prefix{
+position:absolute;
+top:8px;
+left:12px;
+z-index:999;
+color:#737373;
+font-size:18px;
+transition: 200ms;
+transition-timing-function: ease-in-out;
+-webkit-transition: 200ms;
+-webkit-transition-timing-function: ease-in-out;
+}
+.view-inner-icon-affix{
+position:absolute;
+top:10px;
+right:12px;
+z-index:999;
+color:#737373;
+font-size:14px;
+cursor:pointer;
+display:none;
+}
+#login_wrapper{
+background:#262626;
+position:relative;
+}
+#login_header{
+background: #262626;
+height: 60px;
+padding: 10px 150px;
+}
+#login_header a {
+font-size: 15px;
+color: #999;
+padding: 5px 3px;
+margin: 0 12px;
+text-decoration: none;
+transition: 200ms;
+transition-timing-function: ease-in-out;
+-webkit-transition: 200ms;
+-webkit-transition-timing-function: ease-in-out;
+}
+#login_header a:hover{
+color:#fff;
+}
+#login_form{
+width:380px;
+background:#207d49;
+position:relative;
+margin:0 auto;
+padding:50px 30px;
+padding-top:10px;
+border:1px solid #1aaf5d;
+border-radius:4px;
+box-shadow: 0px 0px 12px rgba(26, 175, 93, 0.6);
+-webkit-box-shadow: 0px 0px 12px rgba(26, 175, 93, 0.6);
+}
+#login_form p{
+color:#fff;
+}
+#login_footer{
+width:100%;
+padding:20px 0;
+left:0px;
+bottom:0px;
+text-align:center;
+color:#1aaf5d;
+z-index:999;
+}
+#login_footer a, #login_footer p, #login_footer span{
+color:#1aaf5d;
+}
+#login_form .form-group{
+margin-bottom:0px;
+position:relative;
+}
+#login_form .view-login-input::after{
+visibility:hidden;
+font-size:0px;
+}
+#login_form .form-control:focus{
+
+}
+#login_form .n-bottom .msg-wrap{
+
+}
+#login_form .n-icon{
+display:none;
+}
+.btn-success{
+border:1px solid #1aaf5d;
+background-color:rgba(0,0,0,0);
+box-shadow: 0px 0px 12px rgba(26, 175, 93, 0.6);
+    -webkit-box-shadow: 0px 0px 12px rgba(26, 175, 93, 0.6);
+}
+#login_form .n-error{
+color:#fff
+}
+/* latin */
+@font-face {
+  font-family: 'Electrolize';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Electrolize'), local('Electrolize-Regular'), url('../fonts/Electrolize-Regular.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Orbitron-Light'), local('Orbitron-Regular'), url('../fonts/Orbitron-Regular.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Orbitron-Medium'), url('../fonts/Orbitron-Medium.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Orbitron-Bold'), url('../fonts/Orbitron-Bold.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}

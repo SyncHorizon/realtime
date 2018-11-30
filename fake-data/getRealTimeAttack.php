@@ -1,0 +1,10 @@
+<?php
+if($_POST["type"] == "world"){
+$temp = '{"data":{"result":[{"key":"中国","value":[{"name":"巴林","value":5},{"name":"瑞典","value":17},{"name":"西班牙","value":99},{"name":"阿塞拜疆","value":4},{"name":"德国","value":13},{"name":"意大利","value":27},{"name":"俄罗斯","value":38},{"name":"秘鲁","value":5},{"name":"丹麦","value":15},{"name":"英国","value":45},{"name":"澳大利亚","value":5},{"name":"埃及","value":5},{"name":"乌克兰","value":20},{"name":"文莱","value":5},{"name":"伊朗","value":88},{"name":"瑞士","value":10},{"name":"匈牙利","value":10},{"name":"巴拿马","value":10},{"name":"法国","value":5},{"name":"巴西","value":1},{"name":"卡塔尔","value":5},{"name":"格鲁吉亚","value":5},{"name":"法罗群岛","value":5},{"name":"也门","value":5},{"name":"津巴布韦","value":5},{"name":"巴林","value":5},{"name":"美国","value":5}]},{"key":"美国","value":[{"name":"巴林","value":5},{"name":"瑞典","value":17},{"name":"西班牙","value":99},{"name":"阿根廷","value":4},{"name":"德国","value":13},{"name":"意大利","value":27},{"name":"俄罗斯","value":38},{"name":"秘鲁","value":5},{"name":"丹麦","value":15},{"name":"英国","value":45},{"name":"澳大利亚","value":5},{"name":"埃及","value":5},{"name":"乌克兰","value":20},{"name":"文莱","value":5},{"name":"伊朗","value":88},{"name":"瑞士","value":10},{"name":"匈牙利","value":10},{"name":"巴拿马","value":10},{"name":"法国","value":5},{"name":"巴西","value":1},{"name":"卡塔尔","value":5},{"name":"格鲁吉亚","value":5},{"name":"法罗群岛","value":5},{"name":"也门","value":5},{"name":"津巴布韦","value":5},{"name":"巴林","value":5},{"name":"中国","value":5}]}]},"errorcode":"0","errormeg":"成功","extramsg":"付费信息：0.1元/天","flag":0}';
+echo $temp;
+}
+else if($_POST["type"] == "china"){
+$temp = '{"data":{"result":[{"key":"北京","value":[{"name":"淮阴","value":35},{"name":"合川","value":15},{"name":"马鞍山","value":85},{"name":"清河","value":5},{"name":"成安","value":65},{"name":"淮阴","value":5},{"name":"无极","value":45}]}]},"errorcode":"0","errormeg":"成功","extramsg":"付费信息：0.1元/天","flag":0}';
+echo $temp;
+}
+?>
