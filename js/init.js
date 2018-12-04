@@ -1375,5 +1375,9 @@ $(document).ready(function(){
     };
 	realtime.update_attack_log(temp);
 	}, 1500);
+	$.ajax({
+		type: "post",
+		url: "/"
+	});
 	//-----------------------------***
 });
